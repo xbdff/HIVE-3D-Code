@@ -412,6 +412,9 @@ hive_3d/experiment_helpers_amodal.py
 assets/example_image/
 assets/example_multi_image/
 
+# Local release tests
+/tests/
+
 # Local experiment outputs
 output/
 outputs/
