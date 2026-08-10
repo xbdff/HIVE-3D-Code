@@ -1,0 +1,10 @@
+base_model_type: sd2
+base_model_path: sd2-community/stable-diffusion-2-1-base
+model_t: 200
+coeff_t: 200
+lora_rank: 256
+lora_modules: [to_k, to_q, to_v, to_out.0, conv, conv1, conv2, conv_shortcut, conv_out, proj_in, proj_out, ff.net.2, ff.net.0.proj]
+weight_repo_id: lxq007/HYPIR
+weight_filename: HYPIR_sd2.pth
+weight_revision: 0954d1026903bc0dc05248910663fce2d4231430
+weight_sha256: d538a2cb925451fab1f75adfe715ac2b1c8bb12fa32a0851ba01be2347b354d6

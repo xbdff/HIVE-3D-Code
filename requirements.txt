@@ -1,0 +1,28 @@
+# Supplemental inference dependencies for HIVE-3D.
+# Install this only after TRELLIS runs successfully in the active environment.
+# PyTorch, CUDA, and TRELLIS compiled extensions intentionally belong to the
+# TRELLIS environment and are not managed here.
+
+# Gradio UI
+gradio==4.44.1
+gradio_image_prompter==0.1.0
+
+# SAM2 and Hugging Face model loading
+transformers==4.57.1
+huggingface-hub==0.36.0
+safetensors==0.6.2
+
+# HYPIR inference
+accelerate==1.14.0
+diffusers==0.35.2
+peft==0.19.1
+omegaconf==2.3.1
+python-dotenv==1.2.2
+einops==0.8.1
+
+# HYPIR GPT captioner imports
+openai==2.48.0
+tenacity==9.1.4
+
+# Scene registration import
+teaserpp_python==1.1.0
