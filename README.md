@@ -165,11 +165,13 @@ Public repositories do not require authentication. Set `HF_TOKEN` before launch 
 If you find HIVE-3D useful, please cite:
 
 ```bibtex
-@article{zang2026hive3d,
-  title   = {HIVE-3D: Hierarchical Voxel Enhancement for High-Quality 3D Scene Generation},
-  author  = {Zang, Bin and Zheng, Wenting and Luo, Xiaoliang and Fang, Zhiyuan and Li, Shi and Wang, Lvchun and Yu, Wei and Zhao, Yi and Xie, Tian and Huo, Yuchi and Xie, Rengan},
-  journal = {arXiv preprint arXiv:2607.13468},
-  year    = {2026}
+@inproceedings{zang2026hive3d,
+  title     = {HIVE-3D: Hierarchical Voxel Enhancement for High-Quality 3D Scene Generation},
+  author    = {Zang, Bin and Zheng, Wenting and Luo, Xiaoliang and Fang, Zhiyuan and Li, Shi and Wang, Lvchun and Yu, Wei and Zhao, Yi and Xie, Tian and Huo, Yuchi and Xie, Rengan},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {306},
+  year      = {2026}
 }
 ```
 
